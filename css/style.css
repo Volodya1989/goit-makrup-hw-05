@@ -111,11 +111,26 @@ p {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--bg-iris-color);
+  color: var(--bg-ocean-color);
 }
 
 .navigation a.current {
   color: var(--bg-ocean-color);
+}
+.nav-item{
+  position: relative;
+}
+.current::after{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var( --bg-ocean-color);
+
 }
 .link {
   text-decoration: var(--none-text-decoration);
