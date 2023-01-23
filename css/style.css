@@ -453,7 +453,8 @@ footer {
   margin-left: 32px;
   margin-right: 32px;
 }
-.prj-item:hover .card-overlay {
+.prj-item:hover .card-overlay,
+.prj-item:focus .card-overlay {
   transform: translateY(0);
 }
 img {
