@@ -1,6 +1,6 @@
-# FLEX
+# ANIMATION
 
-![badmath](https://img.shields.io/badge/basic-DECORATION-red)
+![badmath](https://img.shields.io/badge/basic-ANIMATION-yellow)
 
 ![Contributor Covenant](https://img.shields.io/badge/license-MIT-brightgreen)
 
