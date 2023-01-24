@@ -84,6 +84,9 @@ p {
 }
 .btn-modal {
   position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 0;
   right: 0;
   margin-top: 24px;
@@ -94,6 +97,7 @@ p {
 }
 
 .svg-close {
+  display: block;
   width: 8px;
   height: 8px;
 }
