@@ -96,6 +96,12 @@ p {
   width: 24px;
   height: 24px;
 }
+.btn-modal:hover,
+.btn-modal:focus {
+  background-color: var(--bg-ocean-color);
+  transition: var(--transition-time-and-cubic);
+  fill:var(--bg-white-color);
+}
 
 .svg-close {
   display: block;
@@ -215,7 +221,9 @@ p {
 .header-links:hover,
 .header-links:focus,
 .link-social:hover,
-.link-social:focus {
+.link-social:focus,
+.btn-modal:hover,
+.btn-modal:focus {
   color: var(--bg-ocean-color);
   transition: var(--transition-time-and-cubic);
 }
@@ -255,7 +263,6 @@ p {
   background: var(--bg-ocean-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition: var(--transition-time-and-cubic);
-
 }
 
 .sub-title,
