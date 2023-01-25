@@ -80,9 +80,7 @@ p {
   opacity: 0;
   pointer-events: none;
 }
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0.9);
-}
+
 .btn-modal {
   position: absolute;
   display: flex;
@@ -100,13 +98,16 @@ p {
 .btn-modal:focus {
   background-color: var(--bg-ocean-color);
   transition: var(--transition-time-and-cubic);
-  fill:var(--bg-white-color);
+  fill: var(--bg-white-color);
 }
 
 .svg-close {
   display: block;
   width: 8px;
   height: 8px;
+}
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0.8) ease-out;
 }
 
 .modal {
@@ -121,7 +122,7 @@ p {
   padding: 15px;
   border-radius: 4px;
   background-color: white;
-  transition: opacity var(--transition-time-and-cubic);
+  transition: opacity var(--transition-time-and-cubic) ease-in;
 }
 
 /* title's color */
